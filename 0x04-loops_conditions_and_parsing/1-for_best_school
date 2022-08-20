@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# display Best School 10 times.
+# displays Best School 10 times
 
-for (( c=1; c<=10; c++ ))
+for _ in $(seq 1 10);
 do
-    echo "Best School"
+	echo "Best School"
 done

@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
-# display Best School 10 times and replace the ninth line with Hi
-
-COUNTER = 0
-while [ $COUNTER -lt 11 ]
-do 
- if [ $COUNTER = 9 ]
+#Creating a script that uses an if statement
+x=1
+while [ $x -le 10 ]
+do
+    echo "Best School"
+    if [ $x -eq 9 ]
     then
-        echo "Hi"
-    else
-        echo "Best School"
+	echo "Hi"
     fi
-    let COUNTER+=1
+    ((x++))
 done
