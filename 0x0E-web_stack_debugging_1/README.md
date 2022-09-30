@@ -1,5 +1,6 @@
-HTTPS SSL
+Web stack debugging #1
 ---
 - DevOps
 - SysAdmin
-- Security
+- Scripting
+- Debugging
